@@ -44,7 +44,7 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
         if (input.file) formData.append("file", input.file);
         try {
             setLoading(true);
-            const res = await axios.post(`${USER_API_END_POINT}/profile/update`, formData, {
+            const res = await axios.post(`https://hirehub-jobportal-prateek.onrender.com/api/v1/user/profile/update`, formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
                 withCredentials: true
             });

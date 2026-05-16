@@ -10,8 +10,7 @@ const useGetAllJobs = () => {
   useEffect(() => {
     const fetchAllJobs = async () => {
       try {
-        const res = await axios.get(
-          `${JOB_API_END_POINT}/get?keyword=${searchedQuery}`,
+        const res = await axios.get(`https://hirehub-jobportal-prateek.onrender.com/api/v1/job/get?keyword=${searchedQuery}`,
           { withCredentials: true },
         );
         if (res.data.success) {

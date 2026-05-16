@@ -24,7 +24,7 @@ const Companies = () => {
             <Navbar />
             <div className='max-w-6xl mx-auto my-10 px-4'>
 
-                {/* Header */}
+                
                 <div className='mb-8'>
                     <div className='flex items-center gap-2 mb-1'>
                         <Building2 className='w-6 h-6 text-purple-600' />
@@ -33,7 +33,7 @@ const Companies = () => {
                     <p className='text-gray-400 text-sm'>Manage all your registered companies</p>
                 </div>
 
-                {/* Filter + Button */}
+                
                 <div className='flex items-center justify-between mb-6'>
                     <Input
                         className="w-64 border-gray-200 shadow-sm rounded-lg"
@@ -49,7 +49,7 @@ const Companies = () => {
                     </Button>
                 </div>
 
-                {/* Table */}
+              
                 <div className='bg-white rounded-2xl shadow-sm border border-gray-100'>
                     <CompaniesTable />
                 </div>
