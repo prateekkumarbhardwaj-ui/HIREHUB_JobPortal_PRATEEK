@@ -9,7 +9,7 @@ const useGetAllCompanies = () => {
   useEffect(() => {
     const fetchCompanies = async () => {
       try {
-        const res = await axios.get(`https://hirehub-jobportal-prateek.onrender.com/get`, {
+        const res = await axios.get(`https://hirehub-jobportal-prateek.onrender.com/api/v1/company/get`, {
           withCredentials: true,
         });
         console.log("called");

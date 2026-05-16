@@ -9,7 +9,7 @@ const useGetAllAdminJobs = () => {
   useEffect(() => {
     const fetchAllAdminJobs = async () => {
       try {
-        const res = await axios.get(`https://hirehub-jobportal-prateek.onrender.com/getAdminjobs`, {
+        const res = await axios.get(`https://hirehub-jobportal-prateek.onrender.com/api/v1/job/getAdminjobs`, {
           withCredentials: true,
         });
         if (res.data.success) {
