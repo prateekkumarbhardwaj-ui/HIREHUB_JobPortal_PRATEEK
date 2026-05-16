@@ -61,10 +61,10 @@ const Login = () => {
             <div className="flex items-center justify-center px-4 py-12">
                 <div className="w-full max-w-md">
 
-                    {/* Card */}
+                   
                     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
 
-                        {/* Header */}
+                       
                         <div className="text-center mb-8">
                             <div className="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
                                 <LogIn className="w-7 h-7 text-purple-600" />
@@ -75,7 +75,7 @@ const Login = () => {
 
                         <form onSubmit={submitHandler} className="space-y-4">
 
-                            {/* Email */}
+                           
                             <div>
                                 <Label className="text-gray-700 font-semibold flex items-center gap-1 mb-1">
                                     <Mail className="w-4 h-4 text-purple-500" /> Email
@@ -90,7 +90,7 @@ const Login = () => {
                                 />
                             </div>
 
-                            {/* Password */}
+                            
                             <div>
                                 <Label className="text-gray-700 font-semibold flex items-center gap-1 mb-1">
                                     <Lock className="w-4 h-4 text-purple-500" /> Password
@@ -105,7 +105,7 @@ const Login = () => {
                                 />
                             </div>
 
-                            {/* Role */}
+                           
                             <div className="pt-2">
                                 <Label className="text-gray-700 font-semibold mb-2 block">Role</Label>
                                 <RadioGroup className="flex items-center gap-4">
@@ -134,7 +134,7 @@ const Login = () => {
                                 </RadioGroup>
                             </div>
 
-                            {/* Submit */}
+                           
                             <div className="pt-2">
                                 {loading ? (
                                     <Button className="w-full bg-[#6A38C2] text-white rounded-lg py-5">
@@ -150,7 +150,7 @@ const Login = () => {
                                 )}
                             </div>
 
-                            {/* Signup Link */}
+                           
                             <p className="text-center text-sm text-gray-500 pt-2">
                                 Don't have an account?{" "}
                                 <Link to="/signup" className="text-purple-600 font-semibold hover:underline">

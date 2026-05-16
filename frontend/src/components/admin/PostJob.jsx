@@ -59,7 +59,7 @@ const PostJob = () => {
       <Navbar />
       <div className="max-w-3xl mx-auto px-4 py-10">
 
-        {/* Back + Title */}
+       
         <div className="flex items-center gap-4 mb-8">
           <Button
             onClick={() => navigate("/admin/jobs")}
@@ -74,7 +74,7 @@ const PostJob = () => {
           </div>
         </div>
 
-        {/* Card */}
+       
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
           <form onSubmit={submitHandler}>
             <div className="grid grid-cols-2 gap-5">
@@ -158,7 +158,7 @@ const PostJob = () => {
                   className="border-gray-200 rounded-lg" />
               </div>
 
-              {/* Company Dropdown */}
+             
               {companies.length > 0 && (
                 <div className="col-span-2">
                   <Label className="text-gray-700 font-semibold flex items-center gap-1 mb-1">
@@ -183,7 +183,6 @@ const PostJob = () => {
 
             </div>
 
-            {/* Submit */}
             <div className="mt-8">
               {loading ? (
                 <Button className="w-full bg-[#6A38C2] text-white rounded-lg py-5">

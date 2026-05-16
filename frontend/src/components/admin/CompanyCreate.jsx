@@ -38,10 +38,10 @@ const CompanyCreate = () => {
             <Navbar />
             <div className='max-w-2xl mx-auto px-4 py-16'>
 
-                {/* Card */}
+                
                 <div className='bg-white rounded-2xl shadow-sm border border-gray-100 p-10'>
 
-                    {/* Icon + Header */}
+                   
                     <div className='flex flex-col items-center text-center mb-10'>
                         <div className='w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-4'>
                             <Building2 className='w-8 h-8 text-purple-600' />
@@ -52,7 +52,7 @@ const CompanyCreate = () => {
                         </p>
                     </div>
 
-                    {/* Input */}
+                  
                     <div className='mb-8'>
                         <Label className='text-gray-700 font-semibold'>Company Name</Label>
                         <Input
@@ -63,7 +63,7 @@ const CompanyCreate = () => {
                         />
                     </div>
 
-                    {/* Buttons */}
+                    
                     <div className='flex items-center gap-3'>
                         <Button
                             variant="outline"

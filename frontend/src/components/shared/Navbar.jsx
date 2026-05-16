@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
       <div className="flex items-center justify-between mx-auto max-w-7xl h-14 px-4">
-        {/* Logo */}
+        
         <Link to="/" className="flex items-center gap-2">
           <div className="w-8 h-8 bg-[#6A38C2] rounded-lg flex items-center justify-center">
             <Briefcase className="w-4 h-4 text-white" />
@@ -44,7 +44,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        {/* Nav Links + Auth */}
+       
         <div className="flex items-center gap-8">
           <ul className="flex font-medium items-center gap-6 text-sm text-gray-600">
             {user && user.role === "recruiter" ? (
@@ -96,7 +96,7 @@ const Navbar = () => {
             )}
           </ul>
 
-          {/* Auth Buttons or Avatar */}
+         
           {!user ? (
             <div className="flex items-center gap-2">
               <Link to="/Login">
@@ -147,7 +147,7 @@ const Navbar = () => {
                   </div>
                 </div>
 
-                {/* Actions */}
+               
                 <div className="flex flex-col gap-1">
                   {user && user.role === "student" && (
                     <div className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-purple-50 cursor-pointer transition-colors">

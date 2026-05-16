@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
-          {/* Logo + Copyright */}
+         
           <div className="flex flex-col items-center md:items-start gap-1">
             <Link to="/" className="flex items-center gap-2">
               <div className="w-7 h-7 bg-[#6A38C2] rounded-lg flex items-center justify-center">
@@ -21,14 +21,14 @@ const Footer = () => {
             <p className="text-xs text-gray-400">© 2024 HireHub. All rights reserved.</p>
           </div>
 
-          {/* Links */}
+       
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <Link to="/" className="hover:text-[#6A38C2] transition-colors">Home</Link>
             <Link to="/jobs" className="hover:text-[#6A38C2] transition-colors">Jobs</Link>
             <Link to="/browse" className="hover:text-[#6A38C2] transition-colors">Browse</Link>
           </div>
 
-          {/* Social Icons */}
+          
           <div className="flex items-center gap-3">
             <a href="https://facebook.com" aria-label="Facebook"
               className="w-8 h-8 rounded-lg bg-gray-100 hover:bg-purple-100 hover:text-[#6A38C2] flex items-center justify-center text-gray-500 transition-colors">
